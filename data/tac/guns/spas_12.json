@@ -9,13 +9,13 @@
     "recoilAngle": 2.225,
     "horizontalRecoilAngle": 1.325,
     "recoilKick": 2.825,
-    "recoilAdsReduction": 0.28,
+    "recoilAdsReduction": 0.22,
     "alwaysSpread": true,
     "spread": 8.5,
     "projectileAmount": 9,
-    "weaponRecoilDuration": 0.75,
-    "cameraRecoilModifier": 0.55,
-    "recoilDuration": 0.15,
+    "weaponRecoilOffset": 0.985,
+    "cameraRecoilModifier": 0.375,
+    "recoilDuration": 0.115,
     "weightKilo": 4.75
   },
   "reloads": {
@@ -27,7 +27,7 @@
   },
   "projectile": {
     "item": "tac:10_gauge_round",
-    "visible": true,
+    "visible": false,
     "damage": 22,
     "size": 0.3,
     "speed": 20.5,
@@ -49,13 +49,12 @@
     "weaponType": 3
   },
   "modules": {
-    "zoom": [
+    "zoom":
       {
         "fovModifier": 0.9,
         "yOffset": 11.31,
         "zOffset": -8.8
-      }
-    ],
+      },
     "attachments": {}
   }
 }

@@ -41,19 +41,18 @@
   },
   "display": {
     "flash": {
-      "yOffset": 7.03,
-      "zOffset": -26.15,
+      "yOffset": 9.125,
+      "zOffset": -26.0,
       "size": 0.94
     },
     "weaponType": 1
   },
   "modules": {
-    "zoom": [{
+    "zoom":{
       "fovModifier": 0.8,
       "yOffset": 12.085,
       "zOffset": -5.3
-    }],
-    "attachments": {
+    },"attachments": {
       "scope": {
         "yOffset": 12.695,
         "zOffset": 7.1,
